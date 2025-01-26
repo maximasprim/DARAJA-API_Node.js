@@ -84,9 +84,9 @@ app.get("/stkpush", (req, res) => {
             Timestamp: timestamp,
             TransactionType: "CustomerPayBillOnline",
             Amount: "1",
-            PartyA: "2547643493619", //phone number to receive the stk push
+            PartyA: "254743493619", //phone number to receive the stk push
             PartyB: "174379",
-            PhoneNumber: "2547643493619",
+            PhoneNumber: "254743493619",
             CallBackURL: "https://dd3d-105-160-22-207.ngrok-free.app/callback",
             AccountReference: "CompanyXLTD",
             TransactionDesc: "Mpesa Daraja API stk push test",
